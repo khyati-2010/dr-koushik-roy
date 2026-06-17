@@ -174,8 +174,7 @@ section {
     max-width: 1100px;
     margin: auto;
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 60px;
+    gap: 40px;
 }
 
 .about h2{
@@ -193,18 +192,29 @@ section {
 .about-experience h3{
     font-size: 24px;
     margin-bottom: var(--space-s);
+    margin-top: var(--space-s);
     color: var(--text-primary);
 }
 
-.about-experience ul{
-    list-style: none;
-    padding: 0;
+.about-experience h4{
+    font-size: 18px;
+    color: var(--secondary);
+    margin-bottom: var(--space-s);
+    margin-top: var(--space-s);
 }
 
-.about-experience li{
+.about-experience p{
     padding: 10px 0;
     border-bottom: 1px solid rgba(0,0,0,0.05);
     color: var(--text-secondary);
+}
+
+.admExp-container{
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
 }
 
 .timeline{

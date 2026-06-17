@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-// import About from "./components/About";
-// import Research from "./components/Research";
+import About from "./components/About";
+import Research from "./components/Research";
 // import Publications from "./components/Publications";
 // import Recognitions from "./components/Recognitions";
 // import Contact from "./components/Contact";
@@ -14,11 +14,11 @@ function App() {
       <Navbar />
 
       <Hero />
-      {/* <About /> */}
-      {/*<Research />
-      <Publications />
-      <Recognitions />
-      <Contact /> */}
+      <About />
+      <Research />
+      {/* <Publications /> */}
+      {/* <Recognitions /> */}
+      {/* <Contact /> */}
     </>
   );
 }

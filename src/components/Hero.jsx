@@ -1,4 +1,4 @@
-import { faculty } from "../data/faculty"
+import { faculty } from "../data/facultyData"
 
 function Hero() {
     return (

@@ -6,8 +6,13 @@ export const faculty = {
 
   contact: {
     email: "koushik@iitp.ac.in",
-    office: "+91 6115233197",
-    websites: "https://www.koushikroy.com/"
+    phone: "+91 6115233197",
+    office: "",
+    websites: {
+      personal: "https://www.koushikroy.com/",
+      scholar: "",
+      linkedin: "",
+    }
   },
 
   researchAreas: [
@@ -45,9 +50,21 @@ export const faculty = {
   },
 
   education: [
-    "Ph.D., Indian Institute of Technology Kanpur (2015)",
-    "M.Tech., Indian Institute of Technology Roorkee (2010)",
-    "B.E., Bengal Engineering and Science University, Shibpur (2008)"
+    {
+      degree: "Ph.D",
+      institute:"Indian Institute of Technology Kanpur",
+      year: "2015"
+    },
+    {
+      degree: "M.Tech",
+      institute:"Indian Institute of Technology Roorkee",
+      year: "2010"
+    },
+    {
+      degree: "B.E.",
+      institute:"Bengal Engineering and Science University, Shibpur",
+      year: "2008"
+    },
   ],
 
   professionalExperience: [
@@ -94,7 +111,42 @@ export const faculty = {
     ]
   },
 
-  // students: [],
+  students: {
+    currentStud: [
+      {
+        name: "Saranika Das",
+        course: "PhD student (2019 to present)",
+        resArea: "Damage identification in structures through flexibility based methods."
+      },
+      {
+        name: "Md Arif Faridi",
+        course: "PhD student; B.Tech (NIT Patna), M.Tech (AMU)",
+        resArea: ""
+      }
+    ],
+    alumni: [
+      {
+        name: "Kumar Anjneya",
+        course: "Master's student (2017-2019); B.E. (BIT Mesra), M.Tech (Silver Medal, IIT Patna)",
+        resArea: "Response surface methodology based damage quantification in building model, Spectral element methodology, Probability density evolution method (PDEM), Principal Component Analysis (PCA)"
+      },
+      {
+        name: "Divya Grover",
+        course: "Master's student (2018-2020); M.Tech (Gold Medal, IIT Patna)",
+        resArea: "Probability density evolution method (PDEM), Soil Structure Interaction"
+      },
+      {
+        name: "Purushottam Kumar Chowdhury",
+        course: "Master's student (2016-2018); M.Tech (IIT Patna)",
+        resArea: "Damage identification using Spectral Element Methodology (SEM), Principal Component Analysis (PCA)"
+      },
+      {
+        name: "Eshwar Kunchan",
+        course: "JRF (2017-2018), IIT Patna",
+        resArea: "Monitoring of bridge in Bihar, Damage identification in beam using mode shape curvature"
+      }
+    ]
+  },
 
   publications: {
     journals: [
@@ -160,19 +212,52 @@ export const faculty = {
 
   recognitions: {
     awardsAndHonors: [
-      "Conference Chair, ISSS National Conference on MEMS, Smart Materials, Structures and Systems, IIT Kanpur (September 28–30, 2016)",
-      "Chaired a session in An Indo-UK student workshop at IIT Kanpur on Structural Health Monitoring and Optimization (October 02–04, 2012)",
-      "Awarded with DAAD (Deutscher Akademischer Austausch Dienst) fellow for Master Sandwich Program (MSP 2009) to pursue master's thesis in KIT, Germany (September 2009 – May 2010)",
-      "Received grant from UK-India Education and Research Initiative (UKIERI) to pursue research on Integrated Sensing, Monitoring and Healing for Complex Autonomous Systems, The University of Sheffield, United Kingdom (June 10–14, 2013)",
-      "Represented the third batch from India in The Youth-Exchange Project with Asia-Oceania and North America (Kizuna Project), Japan (February 4–13, 2013)",
-      "Awarded funding from Resources and Alumni, IIT Kanpur to attend WCEE 2012 and SUM 2012 (September 17–28, 2012)",
-      "Received funding from Kitakyushu Foundation for the Advancement of Industry Science and Technology, Japan (September 10–12, 2012)",
-      "Participated in the Joint Research Program on Bridge Diagnosis System, Waseda University, Japan (December 03–27, 2011)",
+      {
+        title: "Conference Chair",
+        citation: "Conference Chair, ISSS National Conference on MEMS, Smart Materials, Structures and Systems, IIT Kanpur (September 28–30, 2016)"
+      },
+      {
+        title: "Chaired a session in An Indo-UK student workshop at IIT Kanpur on Structural Health Monitoring and Optimization",
+        citation: "Chaired a session in An Indo-UK student workshop at IIT Kanpur on Structural Health Monitoring and Optimization (October 02–04, 2012)"
+      },
+      {
+        title: "Awarded with DAAD (Deutscher Akademischer Austausch Dienst) fellow for Master Sandwich Program (MSP 2009) to pursue master's thesis in KIT, Germany",
+        citation: "Awarded with DAAD (Deutscher Akademischer Austausch Dienst) fellow for Master Sandwich Program (MSP 2009) to pursue master's thesis in KIT, Germany (September 2009 – May 2010)"
+      },
+      {
+        title: "Received grant from UK-India Education and Research Initiative (UKIERI) to pursue research on Integrated Sensing, Monitoring and Healing for Complex Autonomous Systems, The University of Sheffield, United Kingdom",
+        citation: "Received grant from UK-India Education and Research Initiative (UKIERI) to pursue research on Integrated Sensing, Monitoring and Healing for Complex Autonomous Systems, The University of Sheffield, United Kingdom (June 10–14, 2013)"
+      },
+      {
+        title: "Represented the third batch from India in The Youth-Exchange Project with Asia-Oceania and North America (Kizuna Project), Japan",
+        citation: "Represented the third batch from India in The Youth-Exchange Project with Asia-Oceania and North America (Kizuna Project), Japan (February 4–13, 2013)"
+      },
+      {
+        title: "Awarded funding from Resources and Alumni, IIT Kanpur to attend WCEE 2012 and SUM 2012",
+        citation: "Awarded funding from Resources and Alumni, IIT Kanpur to attend WCEE 2012 and SUM 2012 (September 17–28, 2012)"
+      },
+      {
+        title: "Received funding from Kitakyushu Foundation for the Advancement of Industry Science and Technology, Japan",
+        citation: "Received funding from Kitakyushu Foundation for the Advancement of Industry Science and Technology, Japan (September 10–12, 2012)"
+      },
+      {
+        title: "Participated in the Joint Research Program on Bridge Diagnosis System, Waseda University, Japan",
+        citation: "Participated in the Joint Research Program on Bridge Diagnosis System, Waseda University, Japan (December 03–27, 2011)"
+      }
     ],
     memberships: [
-      "Member, Task Force, Housing for All Scheme, Ministry of Housing and Urban Poverty Alleviation, Govt. of India(2015-'16)",
-      "Expert member on Structural Engineering, State Technical Agency, Pradhan Mantri Gram Sadak Yojana - 2020",
-      "Lifetime member (LM 1904) of Indian Society of Earthquake Technology (Reg. No. 845/64-65)",
+      {
+        title: "Member, Task Force, Housing for All Scheme",
+        citation: "Member, Task Force, Housing for All Scheme, Ministry of Housing and Urban Poverty Alleviation, Govt. of India(2015-'16)"
+      },
+      {
+        title: "Expert member on Structural Engineering",
+        citation: "Expert member on Structural Engineering, State Technical Agency, Pradhan Mantri Gram Sadak Yojana - 2020"
+      },
+      {
+        title: "Lifetime member (LM 1904) of Indian Society of Earthquake Technology",
+        citation: "Lifetime member (LM 1904) of Indian Society of Earthquake Technology (Reg. No. 845/64-65)"
+      }
     ],
   },
 
