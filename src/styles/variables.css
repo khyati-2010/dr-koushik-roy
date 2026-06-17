@@ -3,12 +3,15 @@
   --secondary: #365c59;
 
   --background: #ffffff;
-  --surface: #f8fafc;
+  --surface: #94b3d4;
 
   --text-primary: #0f172a;
   --text-secondary: #475569;
+  --text-card-hover: #c5d0d9;
 
   --accent: #2563eb;
+
+  --border-color: #0f172a;
 
   --space-xs: 4px;
   --space-s: 8px;
@@ -22,6 +25,7 @@
   --radius-s: 6px;
   --radius-m: 12px;
   --radius-l: 20px;
+  --radius-xl: 32px;
 
   --shadow-s: 0 2px 8px rgba(0,0,0,0.05);
   --shadow-m: 0 6px 20px rgba(0,0,0,0.08);
