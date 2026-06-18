@@ -330,6 +330,12 @@ section {
 
 /* Publications */
 
+.public-container h2{
+    font-size: 32px;
+    color: var(--primary);
+    margin-bottom: var(--space-m);  
+}
+
 .public-tabs{
     display: flex;
     gap: 1rem;
@@ -344,7 +350,12 @@ section {
   font-weight: 600;
 }
 
-.public-tabs button:active{
+.public-tabs button.active{
+    background: var(--primary);
+    color: var(--background);
+}
+
+.public-tabs button:hover{
     background: var(--primary);
     color: var(--background);
 }
@@ -396,6 +407,57 @@ section {
     color: var(--text-secondary);
     font-size: small;
     font-weight: 400;
+}
+
+/* Recognitions */
+
+.recog{
+    padding: var(--space-4xl) 0;
+}
+
+.recog h2{
+    font-size: 32px;
+    color: var(--primary);
+    margin-bottom: var(--space-m);  
+}
+
+.recog-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--space-xl);
+    margin-top: var(--space-xl);
+}
+
+.recog-card{
+    background: var(--background-2);
+    border-radius: var(--space-m);
+    padding: var(--space-l);
+    border: 1px solid var(--border-color-dark);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.recog-card h3{
+    font-size: 24px;
+    margin-bottom: var(--space-m);
+    color: var(--primary);
+}
+
+.recog-content {
+    margin-bottom: var(--space-m);
+    padding-left: var(--space-m);
+    border-left: 3px solid var(--primary);
+}
+
+.recog-content h5{
+    color: var(--text-primary);
+    font-size: medium;
+    font-weight: 500;
+}
+
+.recog-content p{
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.6;
 }
 
 /* Media Queries */

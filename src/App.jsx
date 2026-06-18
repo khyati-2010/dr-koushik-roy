@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Research from "./components/Research";
 import Publications from "./components/Publications";
-// import Recognitions from "./components/Recognitions";
+import Recognitions from "./components/Recognitions";
 // import Contact from "./components/Contact";
 // import ScrollProgress from "./components/ScrollProgress";
 
@@ -17,7 +17,7 @@ function App() {
       <About />
       <Research />
       <Publications />
-      {/* <Recognitions /> */}
+      <Recognitions />
       {/* <Contact /> */}
     </>
   );

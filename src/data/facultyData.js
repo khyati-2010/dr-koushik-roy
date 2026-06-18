@@ -467,49 +467,49 @@ export const faculty = {
     awardsAndHonors: [
       {
         title: "Conference Chair",
-        citation: "Conference Chair, ISSS National Conference on MEMS, Smart Materials, Structures and Systems, IIT Kanpur (September 28–30, 2016)"
+        citation: "ISSS National Conference on MEMS, Smart Materials, Structures and Systems, IIT Kanpur (September 28–30, 2016)"
       },
       {
-        title: "Chaired a session in An Indo-UK student workshop at IIT Kanpur on Structural Health Monitoring and Optimization",
-        citation: "Chaired a session in An Indo-UK student workshop at IIT Kanpur on Structural Health Monitoring and Optimization (October 02–04, 2012)"
+        title: "Chaired a session",
+        citation: "In An Indo-UK student workshop at IIT Kanpur on Structural Health Monitoring and Optimization (October 02–04, 2012)"
       },
       {
-        title: "Awarded with DAAD (Deutscher Akademischer Austausch Dienst) fellow for Master Sandwich Program (MSP 2009) to pursue master's thesis in KIT, Germany",
-        citation: "Awarded with DAAD (Deutscher Akademischer Austausch Dienst) fellow for Master Sandwich Program (MSP 2009) to pursue master's thesis in KIT, Germany (September 2009 – May 2010)"
+        title: "Awarded with DAAD (Deutscher Akademischer Austausch Dienst) fellow",
+        citation: "For Master Sandwich Program (MSP 2009) to pursue master's thesis in KIT, Germany (September 2009 – May 2010)"
       },
       {
-        title: "Received grant from UK-India Education and Research Initiative (UKIERI) to pursue research on Integrated Sensing, Monitoring and Healing for Complex Autonomous Systems, The University of Sheffield, United Kingdom",
-        citation: "Received grant from UK-India Education and Research Initiative (UKIERI) to pursue research on Integrated Sensing, Monitoring and Healing for Complex Autonomous Systems, The University of Sheffield, United Kingdom (June 10–14, 2013)"
+        title: "Received grant from UK-India Education and Research Initiative (UKIERI) ",
+        citation: "To pursue research on Integrated Sensing, Monitoring and Healing for Complex Autonomous Systems, The University of Sheffield, United Kingdom (June 10–14, 2013)"
       },
       {
-        title: "Represented the third batch from India in The Youth-Exchange Project with Asia-Oceania and North America (Kizuna Project), Japan",
-        citation: "Represented the third batch from India in The Youth-Exchange Project with Asia-Oceania and North America (Kizuna Project), Japan (February 4–13, 2013)"
+        title: "Represented the third batch from India",
+        citation: "In The Youth-Exchange Project with Asia-Oceania and North America (Kizuna Project), Japan (February 4–13, 2013)"
       },
       {
-        title: "Awarded funding from Resources and Alumni, IIT Kanpur to attend WCEE 2012 and SUM 2012",
-        citation: "Awarded funding from Resources and Alumni, IIT Kanpur to attend WCEE 2012 and SUM 2012 (September 17–28, 2012)"
+        title: "Awarded funding",
+        citation: "From Resources and Alumni, IIT Kanpur to attend WCEE 2012 and SUM 2012 (September 17–28, 2012)"
       },
       {
-        title: "Received funding from Kitakyushu Foundation for the Advancement of Industry Science and Technology, Japan",
-        citation: "Received funding from Kitakyushu Foundation for the Advancement of Industry Science and Technology, Japan (September 10–12, 2012)"
+        title: "Received funding",
+        citation: "From Kitakyushu Foundation for the Advancement of Industry Science and Technology, Japan (September 10–12, 2012)"
       },
       {
-        title: "Participated in the Joint Research Program on Bridge Diagnosis System, Waseda University, Japan",
-        citation: "Participated in the Joint Research Program on Bridge Diagnosis System, Waseda University, Japan (December 03–27, 2011)"
+        title: "Participated in the Joint Research Program",
+        citation: "On Bridge Diagnosis System, Waseda University, Japan (December 03–27, 2011)"
       }
     ],
     memberships: [
       {
         title: "Member, Task Force, Housing for All Scheme",
-        citation: "Member, Task Force, Housing for All Scheme, Ministry of Housing and Urban Poverty Alleviation, Govt. of India(2015-'16)"
+        citation: "Ministry of Housing and Urban Poverty Alleviation, Govt. of India(2015-'16)"
       },
       {
         title: "Expert member on Structural Engineering",
-        citation: "Expert member on Structural Engineering, State Technical Agency, Pradhan Mantri Gram Sadak Yojana - 2020"
+        citation: "State Technical Agency, Pradhan Mantri Gram Sadak Yojana - 2020"
       },
       {
         title: "Lifetime member (LM 1904) of Indian Society of Earthquake Technology",
-        citation: "Lifetime member (LM 1904) of Indian Society of Earthquake Technology (Reg. No. 845/64-65)"
+        citation: "(Reg. No. 845/64-65)"
       }
     ],
   },
