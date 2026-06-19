@@ -8,6 +8,7 @@ import Teaching from "./components/Teaching";
 import Contact from "./components/Contact";
 import ScrollProgress from "./components/ScrollProgress";
 import BackToTop from "./components/BackToTop";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
       <Recognitions />
       <Teaching />
       <Contact />
+      
       <BackToTop />
+      <Footer />
     </>
   );
 }
